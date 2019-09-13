@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    background-color: red;
+    padding: 20px;
+    width: 960px;
+    height: 30px;
+}
+
+section {
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: green;
+    width: 1000px;
+    height: 310px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: black;
+    padding: 20px;
+    width: 965px;
+    height: 40px;
+}
