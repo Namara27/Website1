@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 1000px;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+
+div.wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+table {
+    float: right;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+article {
+    float: left;
+    width: 50%;
+}

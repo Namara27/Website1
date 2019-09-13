@@ -26,3 +26,8 @@ footer {
     width: 965px;
     height: 40px;
 }
+
+div.wrapper {
+    width: 960px;
+    margin: auto;
+}
