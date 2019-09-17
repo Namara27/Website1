@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="formulier.css">
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+</head>
+<body>
+
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+
+    <div id="wrapper1">
+
+        <header>
+            <h2>Formulier</h2>
+        </header>
+
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam"/>
+        </div>
+
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" name="tussenvoegsel"/>
+        </div>
+
+        <div class="form-group">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" name="achternaam"/>
+        </div>
+
+        <div class="radio">
+            <label for="geslacht">Geslacht</label>
+
+            <label class="container-man">Man
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark-man"></span>
+            </label>
+
+            <label class="container-vrouw">Vrouw
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark-vrouw"></span>
+            </label>
+        </div>
+
+        <div class="ogen">
+            <label class="ogen" for="kleur-ogen">Kleur ogen</label>
+            <select name="kleur-ogen">
+                <option>Groen</option>
+                <option>Blauw</option>
+                <option>Bruin</option>
+            </select>
+        </div>
+
+        <div class="date">
+            <label class="date" for="date">Geboortedatum</label>
+            <input type="date" name="date">
+        </div>
+
+        <div class="omschrijving">
+            <label class="omschrijving" for="omschrijving">Omschrijving</label>
+            <textarea name="omschrijving"></textarea>
+        </div>
+    </div>
+
+    <div id="wrapper2">
+
+        <div class="eten">
+            <label class="lekker-eten" for="lekker-eten">Lekker eten:</label>
+
+            <label class="container">Patat
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Bruine bonen
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Linzen
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="OK">
+        </div>
+        <div class="knop2">
+            <input type="button" value="Annuleer">
+        </div>
+    </div>
+</form>
+</body>
+</html>

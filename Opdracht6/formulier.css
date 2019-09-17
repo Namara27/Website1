@@ -1,0 +1,200 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 1000px;
+    margin: auto;
+}
+
+form div#wrapper1, form div#wrapper2 {
+    float: left;
+}
+
+header {
+    margin-left: 10px;
+}
+
+form div.form-group {
+    width: 330px;
+    padding: 10px;
+}
+
+form div.form-group input {
+    float: right;
+    width: 200px;
+    border: solid rgb(213, 230, 245);
+}
+
+
+form div.radio {
+    width: 600px;
+    padding: 10px;
+}
+
+/*--------------Checkbox Geslacht--------------*/
+
+.container-man, .container-vrouw {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: 56px;
+}
+
+/*default weg halen*/
+.container-man input, .container-vrouw input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/*custom*/
+.checkmark-man, .checkmark-vrouw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(213, 230, 245);
+    border-radius: 50%;
+}
+
+.checkmark-man:after, .checkmark-vrouw:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-man input:checked ~ .checkmark-man:after, .container-vrouw input:checked ~ .checkmark-vrouw:after {
+    display: block;
+}
+
+/*cirkel style*/
+.container-man .checkmark-man:after, .container-vrouw .checkmark-vrouw:after {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: cornflowerblue;
+
+}
+
+form div.ogen {
+    padding: 10px 10px 10px 0;
+}
+
+form label.ogen {
+    margin-left: 10px;
+    float: left;
+}
+
+form select {
+    float: left;
+    margin-left: 44px;
+    width: 150px;
+    border: solid rgb(213, 230, 245);
+}
+
+form div.date {
+    width: 330px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+
+form div.date input {
+    margin-left: 1px;
+    width: 145px;
+    border: solid rgb(213, 230, 245);
+}
+
+form div.omschrijving {
+    padding: 10px;
+}
+
+form div.omschrijving label {
+    float: left;
+    margin-right: 25px;
+}
+
+form textarea {
+    width: 330px;
+    margin-top: 5px;
+    height: 130px;
+    float: left;
+    border: solid rgb(213, 230, 245);
+}
+
+form div.eten {
+    padding: 10px;
+    width: 270px;
+    margin-top: 69px;
+}
+
+form label.lekker-eten {
+    float: left;
+}
+
+/*--------------Checkbox eten--------------*/
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 155px;
+    margin-bottom: 12px;
+
+}
+
+/*default knop weg halen*/
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/*custom*/
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    margin-left: 120px;
+    background-color: rgb(213, 230, 245);
+    border: 1px solid rgb(152, 191, 226)
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid cornflowerblue;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: -2px;
+}
+
+form input[type=button], form input[type=submit] {
+    float: right;
+    margin-top: 290px;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    border: 2px solid rgb(152, 191, 226);
+    background-image: linear-gradient(rgb(213, 230, 245), rgb(159, 197, 232));
+}
+
+form input[type=submit] {
+    padding: 5px 35px 5px 35px;
+}

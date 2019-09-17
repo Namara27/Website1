@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    padding-right: 10px;
+}
+
+div#wrapper, footer {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(255, 234, 234);
+    padding: 20px;
+}
+
+section.appel, section.plaatjes {
+    width: 50%;
+    float: left;
+}
+
+section.plaatjes {
+    text-align: right;
+}
+
+img.appel {
+    width: 506px;
+
+}
+
+img.plaatjes {
+    width: 472px;
+    margin-bottom: 5px;
+}
+
+img.artikels {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+article {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+img.book {
+    margin-top: 5px;
+
+}
+
+img.football {
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+footer {
+    background-color: rgb(166,166,166);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
